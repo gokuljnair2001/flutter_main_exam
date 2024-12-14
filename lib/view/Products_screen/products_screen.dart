@@ -50,7 +50,6 @@ class _ProductsScreenState extends State<ProductsScreen> {
             child: ListView.builder(
               itemCount: prowatch.productModel.length,
               itemBuilder: (context, index) {
-                final product = prowatch.productModel[index];
                 return GestureDetector(
                   onTap: () {
                     Navigator.push(
